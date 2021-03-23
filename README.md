@@ -57,8 +57,11 @@ sed -i 's/\tdetect_package/\t# detect_package/g' /koolshare/scripts/ks_tar_insta
 
 **梅林方法二**：
 
-1. 【系统管理 】–【系统设置】内勾选：`Format JFFS partition at next boot` 和 `Enable JFFS custom scripts and configs`，点击「应用本页面设置」，然后重启路由器。
+1. 系统管理 > 系统设置 > 勾选以下两个，点击「应用本页面设置」，然后重启路由器。
 
-2. 重启路由后，然后将路由器连上网络，进入软件中心将更新到最新。
+- [x] `Format JFFS partition at next boot`
+- [x] `Enable JFFS custom scripts and configs`
+
+2. 然后将路由器连上网络，进入软件中心将更新至最新。
 
 🔝[返回顶部](#路由器开启-ssh)
